@@ -8,12 +8,12 @@ Please cite our paper journal if you publish material based on those datasets.
 
 We have used the datasets available in NYC and Tokyo Check-in Dataset available in [https://sites.google.com/site/yangdingqi/home/foursquare-dataset] to derive two others datasets in the context of ride-sharing mobility: 
 
-(1) routine trips dataset. it contains the fastest path between the two most frequently visited venues for each user (Files: "routine_trips_tky.json" and "routine_trips_nyc.json"). <br>
+(1) routes dataset. it contains the fastest path between the two most frequently visited venues for each user (Files: "routes_tky.json" and "routes_nyc.json"). <br>
 (2) ride requests. it contains the representation of ride request specifying pickup location, intended destination and pick-up time.  
 
 The whole dataset has been compressed for one-week time window.
 
-### Routine trips dataset
+### Routes dataset
 
 Each line of the dataset contains a json with a key-tuple (user_id, venue_destination_id) and the following properties:
 
