@@ -19,9 +19,9 @@ Each line of the dataset contains a json with a key-tuple (user_id, venue_destin
 
 **path:** contains the metada regarding the trips such as user_id and the departure and destination venues (including their ids, latitude and longitude).
 
-**google:** direction: google direction api [developers.google.com/maps/documentation/directions/] route result. 
+**google direction:** google direction api [developers.google.com/maps/documentation/directions/] route result. 
 
-**schedule:** List of weekdays wich the destination was visited by the given user (e.g. 0 monday, 1 tuesday, and so on.) 
+**schedule:** weekdays wich the destination was visited by the given user (e.g. 0 monday, 1 tuesday, and so on.) 
 The time is computed considering the median among all the checkins datetime which the given user visit this destination. 
 
 
