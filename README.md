@@ -2,7 +2,7 @@
 
 
 Please cite our paper journal if you publish material based on those datasets.
-* Paper not yet published
+* [Boosting Ride Sharing With Alternative Destinations] : https://doi.org/10.1109/TITS.2018.2836395
 
 ## Dataset Description
 
